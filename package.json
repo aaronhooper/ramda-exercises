@@ -4,6 +4,11 @@
   "private": true,
   "main": "index.js",
   "license": "MIT",
+  "standard": {
+    "ignore": [
+      "test"
+    ]
+  },
   "dependencies": {
     "ramda": "^0.29.0"
   },
