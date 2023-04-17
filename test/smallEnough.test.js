@@ -1,7 +1,7 @@
 /* eslint-disable */
 const chai = require('chai')
 const assert = chai.assert
-const { smallEnough } = require('../lib/smallEnough')
+const { smallEnough } = require('../src/lib/smallEnough')
 
 chai.config.truncateThreshold = 0
 

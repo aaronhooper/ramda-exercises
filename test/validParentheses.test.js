@@ -1,6 +1,6 @@
 const assert = require('chai').assert
 
-const isValid = require('../lib/validParentheses')
+const isValid = require('../src/lib/validParentheses')
 
 describe('validParentheses', () => {
   it('passes the tests', () => {

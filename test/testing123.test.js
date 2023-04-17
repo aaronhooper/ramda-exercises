@@ -1,5 +1,5 @@
 const chai = require('chai')
-const { number } = require('../lib/testing123')
+const { number } = require('../src/lib/testing123')
 const assert = chai.assert
 chai.config.truncateThreshold = 0
 

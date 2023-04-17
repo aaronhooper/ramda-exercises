@@ -1,5 +1,5 @@
 const strictEqual = require('chai').assert.strictEqual;
-const shortcut = require('../lib/vowelRemover')
+const shortcut = require('../src/lib/vowelRemover')
 
 function doTest (input, expected) {
   const actual = shortcut(input);
