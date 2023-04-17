@@ -7,5 +7,7 @@ describe('validParentheses', () => {
     assert.equal(isValid("()"), true)
     assert.equal(isValid("()[]{}"), true)
     assert.equal(isValid("(]"), false)
+    assert.equal(isValid("{([]{}{{(){}[]}})}"), true)
+    assert.equal(isValid("{[{[()][]]}"), false)
   })
 })
