@@ -49,7 +49,7 @@ const isValid = (str) => {
 
   const invalidateString = (acc) => () => reduced({ ...acc, valid: false })
 
-  const validateBrackets = reduce((acc, bracket) =>
+  const validateBracketArray = reduce((acc, bracket) =>
     ifElse(
       bracketIsOpen,
       addBracketToStack(acc),
@@ -62,7 +62,7 @@ const isValid = (str) => {
 
   return pipe(
     split(''),
-    validateBrackets,
+    validateBracketArray,
     prop('valid')
   )(str)
 }
