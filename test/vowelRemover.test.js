@@ -6,8 +6,8 @@ function doTest (input, expected) {
   strictEqual(actual, expected, `for "${input}":\n`);
 }
 
-describe("Sample Tests", () => {
-  it("Should pass sample tests", () => {
+describe("vowelRemover", () => {
+  it("passes the tests", () => {
     doTest('hello', 'hll');
     doTest('how are you today?', 'hw r y tdy?');
     doTest('complain', 'cmpln');
