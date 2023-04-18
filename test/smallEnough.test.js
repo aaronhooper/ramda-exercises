@@ -1,4 +1,3 @@
-/* eslint-disable */
 const chai = require('chai')
 const assert = chai.assert
 const { smallEnough } = require('../src/lib/smallEnough')
