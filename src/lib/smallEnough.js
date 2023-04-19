@@ -1,3 +1,5 @@
+/** @module */
+
 const { all } = require('ramda')
 
 /**

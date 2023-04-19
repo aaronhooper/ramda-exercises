@@ -1,3 +1,5 @@
+/** @module */
+
 const { pipe, reduce, cond, equals, append, T, prop, split, inc, dec } = require('ramda')
 
 /**

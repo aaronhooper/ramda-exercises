@@ -1,3 +1,5 @@
+/** @module */
+
 const { startsWith, split, filter, map, pipe, zipObj, nth, sum, toPairs, join } = require('ramda')
 
 /**

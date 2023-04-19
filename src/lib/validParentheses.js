@@ -1,3 +1,5 @@
+/** @module */
+
 const {
   includes,
   __,

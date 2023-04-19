@@ -1,3 +1,5 @@
+/** @module */
+
 const { pipe, split, map, reduce, multiply, unfold, length } = require('ramda')
 
 /**

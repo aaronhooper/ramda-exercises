@@ -1,3 +1,5 @@
+/** @module */
+
 const { pipe, keys, difference, isEmpty, map, apply, intersection, prop, __, converge, divide, zip, not } = require('ramda')
 /**
  * Pete likes to bake some cakes. He has some recipes and ingredients.

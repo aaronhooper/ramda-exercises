@@ -1,3 +1,5 @@
+/** @module */
+
 const { converge, concat, filter, reject, equals } = require('ramda')
 
 /**
