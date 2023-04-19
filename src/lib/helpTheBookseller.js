@@ -39,7 +39,11 @@ const { startsWith, split, filter, map, pipe, zipObj, nth, sum, toPairs, join } 
  *
  * If L or M are empty return string is "" (Clojure/Racket/Prolog should
  * return an empty array/list instead).
-*/
+ *
+ * @param {string[]} stock
+ * @param {string[]} categories
+ * @returns {string} a string representing the stock sum of each category
+ */
 const stockList = (stock, categories) => {
   const filterStockByCategory = (category) => filter(startsWith(category), stock)
 

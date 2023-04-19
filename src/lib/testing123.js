@@ -8,9 +8,12 @@
  * The numbering starts at 1. The format is n: string. Notice the colon
  * and space in between.
  *
- * Examples: (Input --> Output)
- * [] --> []
- * ["a", "b", "c"] --> ["1: a", "2: b", "3: c"]
+ * @param {Array} a
+ * @returns {Array} an array of strings with the line number prepended
+ *
+ * @example
+ * number([]) // returns []
+ * number(["a", "b", "c"]) // returns ["1: a", "2: b", "3: c"]
  */
 const number = (a) => a.map((v, i) => `${i + 1}: `.concat(v))
 

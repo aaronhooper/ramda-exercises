@@ -6,6 +6,10 @@ const { all } = require('ramda')
  * are, return true. Else, return false.
  *
  * You can assume all values in the array are numbers.
+ *
+ * @param {number[]} a
+ * @param {number} limit
+ * @returns {boolean} true if all values in a are less than or equal to the limit
  */
 const smallEnough = (a, limit) => all((n) => n <= limit, a)
 
