@@ -53,9 +53,11 @@ const stockList = (stock, categories) => {
     map(filterStockByCategory),
     zipObj(categories),
     map(pipe(
-      map(split(' ')),
-      map(nth(1)),
-      map(parseInt),
+      map(pipe(
+        split(' '),
+        nth(1),
+        parseInt
+      )),
       sum
     )),
     toPairs,
